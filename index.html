@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" ng-app="YouthCafe" class="app__body">
+<html lang="en-US" class="app__body">
 
 <head>
 <meta name="format-detection" content="telephone=no" />
@@ -23,16 +23,16 @@
 
 <link rel="canonical" href="https://ycafes.co.za/" />
 <link href='https://fonts.googleapis.com/css?family=Lato:300,400,600,900' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="https://ycafes.co.za/styles/global.min.css">
+<link href="https://ycafes.co.za/styles/global.min.css" rel="stylesheet" type="text/css">
 
 <script src="https://ycafes.co.za/scripts/utils.min.js"></script>
-<!-- <script>
+<script>
 if('serviceWorker' in navigator) {
 	navigator.serviceWorker.register('https://ycafes.co.za/serviceWorker.js').then(() => {
 		console.log('Service Worker Registered');
 	});
 }
-</script> -->
+</script>
 </head>
 <body ng-controller="AppController as app" script-loader>
 
@@ -42,7 +42,7 @@ if('serviceWorker' in navigator) {
 	<div class="ng-view app__view"></div>
 
 	<script src="https://ycafes.co.za/scripts/app-bootsrap.min.js"></script>
-	<script src="cordova.js"></script>
+	<script src="phonegap.js"></script>
 	<script>
 		YCAFE.App.init();
 	</script>
