@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id        = "com.ycafe.app"
-        versionCode = "1001"
-        version   = "1.0.1">
+        versionCode = "1002"
+        version   = "1.0.2">
 
     <name>Youth Café</name>
 
@@ -45,7 +45,7 @@
         Define a specific version of PhoneGap to build into your app.
     -->
 
-    <preference name='phonegap-version' value='cli-8.0.0' />
+    <preference name='phonegap-version' value='cli-7.0.0' />
 
     <!-- Plugins -->
 
@@ -53,19 +53,19 @@
     <!-- <plugin name="cordova-plugin-battery-status" /> -->
     <!-- <plugin name="cordova-plugin-camera" /> -->
     <!-- <plugin name="cordova-plugin-media-capture" /> -->
-    <!-- <plugin name="cordova-plugin-console" /> -->
+    <plugin name="cordova-plugin-console" />
     <!-- <plugin name="cordova-plugin-contacts" /> -->
-    <!-- <plugin name="cordova-plugin-device" /> -->
+    <plugin name="cordova-plugin-device" />
     <!-- <plugin name="cordova-plugin-device-motion" /> -->
     <!-- <plugin name="cordova-plugin-device-orientation" /> -->
     <plugin name="cordova-plugin-dialogs" />
-    <!-- <plugin name="cordova-plugin-file" /> -->
-    <!-- <plugin name="cordova-plugin-file-transfer" /> -->
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-file-transfer" />
     <plugin name="cordova-plugin-geolocation" />
-    <!-- <plugin name="cordova-plugin-globalization" /> -->
+    <plugin name="cordova-plugin-globalization" />
     <plugin name="cordova-plugin-inappbrowser" />
-    <!-- <plugin name="cordova-plugin-media" /> -->
-    <!-- <plugin name="cordova-plugin-network-information" /> -->
+    <plugin name="cordova-plugin-media" />
+    <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
     <!-- <plugin name="cordova-plugin-vibration" /> -->
 
@@ -105,7 +105,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
  -->
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>101</string>
+    <string>102</string>
     </gap:config-file>
 
     <!--
