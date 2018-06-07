@@ -7,8 +7,8 @@
 	var version = '1.1.5';
 
 	var filesToCache = [
-		'/',
-		'https://ycafes.co.za/assets/app-back.png',
+		'',
+		'/assets/app-back.png',
 		'/assets/preloader3.svg',
 		'/styles/global.min.css',
 		'/scripts/app.min.js',
