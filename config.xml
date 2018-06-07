@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id        = "com.ycafe.app"
-        versionCode = "1012"
-        version   = "1.0.12">
+        versionCode = "1013"
+        version   = "1.0.13">
 
     <name>Youth Café</name>
 
@@ -59,12 +59,12 @@
     <!-- <plugin name="cordova-plugin-device-motion" /> -->
     <!-- <plugin name="cordova-plugin-device-orientation" /> -->
     <plugin name="cordova-plugin-dialogs" />
-    <plugin name="cordova-plugin-file" />
-    <plugin name="cordova-plugin-file-transfer" />
-    <plugin name="cordova-plugin-geolocation" />
+    <!-- <plugin name="cordova-plugin-file" /> -->
+    <!-- <plugin name="cordova-plugin-file-transfer" /> -->
+    <!-- <plugin name="cordova-plugin-geolocation" /> -->
     <plugin name="cordova-plugin-globalization" />
     <plugin name="cordova-plugin-inappbrowser" />
-    <plugin name="cordova-plugin-media" />
+    <!-- <plugin name="cordova-plugin-media" /> -->
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
     <!-- <plugin name="cordova-plugin-vibration" /> -->
@@ -105,7 +105,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
  -->
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>112</string>
+    <string>113</string>
     </gap:config-file>
 
     <!--
