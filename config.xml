@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id        = "com.ycafe.app"
-        versionCode = "1009"
-        version   = "1.0.9">
+        versionCode = "1010"
+        version   = "1.0.10">
 
     <name>Youth Café</name>
 
@@ -105,7 +105,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
  -->
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>109</string>
+    <string>110</string>
     </gap:config-file>
 
     <!--
@@ -130,10 +130,10 @@
     <!-- <allow-intent href="geo:*" /> -->
 
     <platform name="android">
-        <allow-intent href="market:*" />
-      <!--  <config-file target="AndroidManifest.xml" parent="/*">
+        <!-- <allow-intent href="market:*" /> -->
+       <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.INTERNET" />
-        </config-file> -->
+        </config-file>
     </platform>
 
     <platform name="ios">
