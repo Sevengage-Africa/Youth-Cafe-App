@@ -4,11 +4,11 @@
 
 
 (function(){
-	var version = '1.1.4';
+	var version = '1.1.5';
 
 	var filesToCache = [
-		'/home.html',
-		'/assets/app-back.png',
+		'/',
+		'https://ycafes.co.za/assets/app-back.png',
 		'/assets/preloader3.svg',
 		'/styles/global.min.css',
 		'/scripts/app.min.js',
