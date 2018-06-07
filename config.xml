@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id        = "com.ycafe.app"
-        versionCode = "1016"
-        version   = "1.0.16">
+        versionCode = "1017"
+        version   = "1.0.17">
 
     <name>Youth Café</name>
 
@@ -45,7 +45,7 @@
     <preference name="DisallowOverscroll" value="true" />
 
     <preference name="android-minSdkVersion" value="14" />
-    
+
     <!--
         Define a specific version of PhoneGap to build into your app.
     -->
@@ -114,7 +114,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
  -->
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>116</string>
+    <string>117</string>
     </gap:config-file>
 
     <!--
