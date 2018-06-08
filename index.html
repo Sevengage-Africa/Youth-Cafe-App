@@ -54,7 +54,8 @@ if('serviceWorker' in navigator) {
 			    });
 
 			    StatusBar.styleBlackTranslucent();
-			    StatusBar.hide();
+			    StatusBar.overlaysWebView(true);
+			    StatusBar.backgroundColorByHexString("#20202100");
 
 		    	// window.analytics.startTrackerWithId('UA-73794751-1');
 			}
