@@ -45,14 +45,15 @@ if('serviceWorker' in navigator) {
 		YCAFE.App = {
 
 			init() {
-				document.addEventListener('deviceready', this.onDeviceReady, true);	
+				document.addEventListener('deviceready', this.bootStrapApp, true);	
 			},
 
-			onDeviceReady() {
+			bootStrapApp() {
 			    angular.element(document).ready(() => {
 			        angular.bootstrap(document, ["YouthCafe"]);
 			    });
 
+			    StatusBar.show();
 			    StatusBar.styleBlackTranslucent();
 			    StatusBar.overlaysWebView(true);
 			    StatusBar.backgroundColorByHexString("#20202100");
