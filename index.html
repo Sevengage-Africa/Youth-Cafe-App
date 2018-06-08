@@ -34,14 +34,31 @@ if('serviceWorker' in navigator) {
 </head>
 <body ng-controller="AppController as app" script-loader>
 
-	<img src="img/preloader3.svg" class="app__loader" alt="preloader" />
+	<img src="assets/preloader3.svg" class="app__loader" alt="preloader" />
 	<div class="app__overlay"></div>
 	
 	<div class="ng-view app__view"></div>
 
-	<script src="https://ycafes.co.za/scripts/app-bootstrap.min.js"></script>
+	<script src="https://ycafes.co.za/scripts/app.min.js"></script>
 	<script src="cordova.js"></script>
 	<script>
+		YCAFE.App = {
+
+			init() {
+				document.addEventListener('deviceready', this.onDeviceReady, true);	
+			},
+
+			onDeviceReady() {
+			    angular.element(document).ready(() => {
+			        angular.bootstrap(document, ["YouthCafe"]);
+			    });
+
+			    StatusBar.hide();
+
+		    	// window.analytics.startTrackerWithId('UA-73794751-1');
+			}
+		};
+
 		YCAFE.App.init();
 	</script>
 </body>
