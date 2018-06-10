@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id        = "com.ycafe.app"
-        versionCode = "1021"
-        version   = "1.0.21">
+        versionCode = "1022"
+        version   = "1.0.22">
 
     <name>Youth Café</name>
 
@@ -25,8 +25,6 @@
     -->
     <preference name="permissions"                value="none"/>
 
-    
-
     <!-- Customize your app and platform with the preference element. -->
     <preference name="Orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
@@ -38,7 +36,7 @@
     <preference name="ios-statusbarstyle"         value="black-opaque" />   <!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->
     <preference name="detect-data-types"          value="true" />           <!-- ios: controls whether data types (such as phone no. and dates) are automatically turned into links by the system -->
     <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
-    <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
+    <preference name="show-splash-screen-spinner" value="false" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
     <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
    
@@ -46,7 +44,7 @@
     
     <preference name="DisallowOverscroll" value="true" />
 
-    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-minSdkVersion" value="26" />
     <preference name="FadeSplashScreen" value="false"/>
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashScreenBackgroundColor" value="#333333" />
@@ -119,7 +117,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
  -->
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>121</string>
+    <string>122</string>
     </gap:config-file>
 
     <!--
