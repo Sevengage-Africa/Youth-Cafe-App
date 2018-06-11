@@ -5,8 +5,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id        = "com.ycafe.app"
-        versionCode = "1022"
-        version   = "1.0.22">
+        versionCode = "1023"
+        version   = "1.0.23">
 
     <name>Youth Café</name>
 
@@ -44,7 +44,9 @@
     
     <preference name="DisallowOverscroll" value="true" />
 
+     <preference name='phonegap-version' value='cli-7.0.1' />
     <preference name="android-minSdkVersion" value="26" />
+
     <preference name="FadeSplashScreen" value="false"/>
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashScreenBackgroundColor" value="#333333" />
@@ -53,8 +55,7 @@
         Define a specific version of PhoneGap to build into your app.
     -->
 
-<!--     <preference name='phonegap-version' value='cli-6.5.0' />
- -->
+
     <!-- Plugins -->
 
     <!-- Core plugins -->
@@ -117,7 +118,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
  -->
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>122</string>
+    <string>123</string>
     </gap:config-file>
 
     <!--
