@@ -45,7 +45,8 @@ if('serviceWorker' in navigator) {
 		YCAFE.App = {
 
 			init() {
-				document.addEventListener('deviceready', this.bootStrapApp, true);	
+				document.addEventListener('deviceready', this.bootStrapApp, true);
+				return this;
 			},
 
 			bootStrapApp() {
@@ -58,7 +59,9 @@ if('serviceWorker' in navigator) {
 			    StatusBar.overlaysWebView(true);
 			    StatusBar.backgroundColorByHexString("#20202100");
 
-		    	// window.analytics.startTrackerWithId('UA-73794751-1');
+		    	// window.analytics.startTrackerWithId('UA-116741556-2');
+
+		    	return this;
 			}
 		};
 
